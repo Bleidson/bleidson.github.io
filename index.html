@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100&display=swap" rel="stylesheet">
+    <title>Bleidson P. Nunes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:hsl(212, 45%, 89%); 
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 40px;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            z-index: 999;
+            backdrop-filter:blur(3px);
+        }
+
+
+        .header-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 98%;
+        }
+
+        .left-content {
+            display: flex;
+            align-items: center;
+        }
+
+        .profile-picture img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            border: 3px solid darkgreen;
+            margin-right: 10px;
+        }
+
+        h1 {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .green-dark {
+            color: #034403;
+        }
+
+        .green-light {
+            color: #1b681b;
+        }
+
+        .blue-dark {
+            color: hsl(218, 44%, 22%);
+        }
+
+        .social-icons img {
+            width: 30px;
+            height: 30px;
+            margin-left: 10px;
+        }
+
+        .social-icons a:first-child img {
+            margin-left: 0;
+        }
+
+        header span {
+            font-family: 'Outfit';
+        }
+        /*main*/
+        main{
+            padding-top: 100px;
+            width: 90%;
+            margin: auto;
+        }
+
+        .main-subtitles{
+            padding: 5px 0px 5px 10px;
+            border-radius: 10px;
+            background-image: linear-gradient(to right, white, hsl(212, 45%, 89%));
+            font-family:'Outfit';
+        }
+        .content-projects {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            
+        }
+
+        .project {
+            width: 300px;
+            background-color: hsl(0, 0%, 100%);
+            padding: 20px;
+            border-radius: 20px;
+        }
+
+        .thumbnail img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .project-details h2 {
+            font-family: 'Outfit';
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .project-details p {
+            font-family: 'Outfit';
+            font-size: 14px;
+            color: #555;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="left-content">
+                <div class="profile-picture">
+                    <img src="imagens/WhatsApp_Image_2023-07-04_at_12.23.01_PM.jpeg" alt="Imagem de Perfil">
+                </div>
+                <h1><span class="blue-dark">&lt;</span>
+                    <span class="blue-dark">&#47;</span><span class="green-light">B</span><span class="green-dark">P</span><span class="green-light">N</span><span class="white">&gt;</span></h1>
+            </div>
+            <div class="right-content">
+                <div class="social-icons">
+                    <a href="https://github.com/https://github.com/Bleidson" target="_blank"><img src="/imagens/github.png" alt="GitHub"></a>
+                    <a href="https://www.instagram.com/bleidson._" target="_blank"><img src="/imagens/instagram.png" alt="Instagram"></a>
+                    <a href="https://www.linkedin.com/in/seu-usuario" target="_blank"><img src="/imagens/linkedin.png" alt="LinkedIn"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <h2 class="main-subtitles">Projetos</h2>
+        <section class="content-projects">
+            <div class="project">
+                <div class="thumbnail">
+                  <img src="imagens/projeto-escola.PNG" alt="Imagem do Projeto 1">
+                </div>
+                <div class="project-details">
+                  <h2>Site escolar</h2>
+                  <p>Este site tem como finaliade ampliar meus conhecimentos em HTML5 e CSS3, junto com isso conhecer novas tecnologias com Java Script</p>
+                </div>
+              </div>
+              
+              <div class="project">
+                <div class="thumbnail">
+                  <img src="imagens/cordel-moderno.PNG" alt="Imagem do Projeto 2">
+                </div>
+                <div class="project-details">
+                  <h2>Cordel-moderno</h2>
+                  <p>Projeto de um cordel moderno de Milton Duarte feito para o curos em video.</p>
+                </div>
+              </div>
+
+              <div class="project">
+                  <div class="thumbnail">
+                    <img src="imagens/projeto-android.PNG" alt="Imagem do Projeto 3">
+                  </div>
+                  <div class="project-details">
+                    <h2>Projeto android</h2>
+                    <p>Site responsivo criado para o curos de HTML5 e CSS3 do curso em video</p>
+                  </div>
+                </div>
+                
+                <div class="project">
+                  <div class="thumbnail">
+                    <img src="imagens/projeto-ecommerce.PNG" alt="Imagem do Projeto 4">
+                  </div>
+                  <div class="project-details">
+                    <h2>Projeto ecommerce</h2>
+                    <p>Este é um projeto que eu fiz para testa minhas habilidades, eu ireia atualizando ele de acordo com o avanço dos meus estudos</p>
+                  </div>
+                </div>
+
+                <div class="project">
+                  <div class="thumbnail">
+                    <img src="imagens/projeto-social.PNG" alt="Imagem do Projeto 5">
+                  </div>
+                  <div class="project-details">
+                    <h2>Projeto social</h2>
+                    <p>Site feito para ampliar meus conhecimentos em novas tecnologias como iframes</p>
+                  </div>
+                </div>
+                
+                <div class="project">
+                  <div class="thumbnail">
+                    <img src="imagens/projeto-qr-code.PNG" alt="Imagem do Projeto 6">
+                  </div>
+                  <div class="project-details">
+                    <h2>Cordel-moderno</h2>
+                    <p>Site responsivo de apresentação de QR code, desafio oferecido pelo <a href="http://frontendmentor.io" target="_blank" rel="noopener noreferrer">frontendmentor.io</a>concluido em 30 minutos</p>
+                  </div>
+                </div>
+              <!-- Adicione mais projetos aqui -->
+        </section>
+      </main>
+
+</body>
+</html>
